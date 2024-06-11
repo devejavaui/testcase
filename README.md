@@ -1,8 +1,15 @@
-Create new repository from Github ui without selecting any option : Rest-JWT
-Open git bash in your spring boot project
+…or create a new repository on the command line
+echo "# testcase" >> README.md
 git init
- git add README.md ----create README file
-git commit -m "first commit" 
-git branch -M main 
-git remote add origin https://github.com/devejavaui/Rest-JWT.git 
-git push -u origin main 
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/devejavaui/testcase.git
+git push -u origin main
+
+…or 
+
+push an existing repository from the command line
+git remote add origin https://github.com/devejavaui/testcase.git
+git branch -M main
+git push -u origin main
